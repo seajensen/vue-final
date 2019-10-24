@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Page 1"/>
+    <Hiragana msg="Hiragana"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Hiragana from '@/components/Hiragana.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    Hiragana
   }
 }
 </script>
