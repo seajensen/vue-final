@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Hiragana</router-link> |
-      <router-link to="/katakana">Katakana</router-link> | 
-      <router-link to="/kanji">Kanji</router-link>
+      <router-link to="/">PokéDex</router-link> |
+      <router-link to="/myTeam">My Team</router-link>
     </div>
     <router-view/>
   </div>

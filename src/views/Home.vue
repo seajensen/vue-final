@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <Hiragana msg="Hiragana"/>
+    <Pkdex msg="Hiragana"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Hiragana from '@/components/Hiragana.vue'
+import Pkdex from '@/components/Pkdex.vue'
 
 export default {
   name: 'home',
   components: {
-    Hiragana
+    Pkdex
   }
 }
 </script>
