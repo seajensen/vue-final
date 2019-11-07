@@ -22,7 +22,6 @@ import PkBox from './PkBox';
 export default {
   props: ["pkmon"],
   data: () => ({
-    name: "Sean",
   }),
   components: {
       PkBox,
