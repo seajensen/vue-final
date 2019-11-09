@@ -13,7 +13,9 @@
         <v-divider></v-divider>
         <p>Weight: {{pkmonWeight}}</p>
         <v-divider></v-divider>
-        <v-btn style="background-color: red; color: white; margin: auto; width: 80%; margin-top: 10px; margin-bottom: 10px;">
+        <v-btn style="background-color: red; color: white; margin: auto; width: 80%; margin-top: 10px; margin-bottom: 10px;"
+        @click="teamAdd(pkmonType, pkmonHeight, pkmonWeight, pkmon.name, pkmon.sprites.front_default)"
+        >
             Add to My Team
         </v-btn>
     </div>
@@ -45,6 +47,13 @@ export default {
             this.infoToggle = false;
           }
 
+      },
+      teamAdd(a, b, c, d, e) {
+          console.log(a);
+          console.log(b);
+          console.log(c);
+          console.log(d);
+          console.log(e);
       }
   },
   data: () => ({
