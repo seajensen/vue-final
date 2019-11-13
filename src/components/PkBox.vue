@@ -1,5 +1,6 @@
 <template>
 <div id="dex-box">
+    <p>Click on a Pokémon to Learn More</p><br>
     <div v-for="pkmon in pkmon" :key="pkmon.name">
     <pk-comp :pkmon="pkmon"></pk-comp>
     </div>
@@ -22,8 +23,9 @@ export default {
 <style scoped>
 #dex-box {
     background-color: white;
-    width: 500px;
+    width: 70%;
     padding-bottom: 15px;
+    padding-right: 5px;
     margin: auto;
     margin-bottom: 100px;
     display: flex;
@@ -35,6 +37,11 @@ export default {
 }
 .pkBtn {
     background-color: red;
+}
+p {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
 }
 </style>
 

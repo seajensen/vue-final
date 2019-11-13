@@ -26,10 +26,14 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #632525;
 }
 
 #nav a.router-link-exact-active {
   color: white;
+}
+#nav a:hover {
+  font-weight: bold;
+  color: #000000;
 }
 </style>
