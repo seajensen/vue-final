@@ -3,6 +3,7 @@
     <div v-for="pkmon in pkmon" :key="pkmon.name">
     <pk-comp :pkmon="pkmon"></pk-comp>
     </div>
+    <p> 1 | 2 | 3 | 4 | 5 | 6 </p>
 </div>
 </template>
 
