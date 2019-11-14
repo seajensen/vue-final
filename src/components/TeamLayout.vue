@@ -6,7 +6,7 @@
         <h1 id="h1Title">My Team</h1>
     </div>
     <v-content>
-        <pk-box :pkmon="pkmon"></pk-box>
+        <team-box></team-box>
     </v-content>
 
 <v-footer id="footer-div">
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import PkBox from './PkBox';
+import TeamBox from './TeamBox';
 
 export default {
   props: ["pkmon"],
@@ -25,7 +25,7 @@ export default {
     name: "Sean",
   }),
   components: {
-      PkBox,
+      TeamBox,
   }
 };
 </script>

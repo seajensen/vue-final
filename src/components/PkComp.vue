@@ -54,6 +54,11 @@ export default {
           console.log(c);
           console.log(d);
           console.log(e);
+          this.$store.state.teamType.push(a);
+          this.$store.state.teamHeight.push(b);
+          this.$store.state.teamWeight.push(c);
+          this.$store.state.teamName.push(d);
+          this.$store.state.teamSprite.push(e);
       }
   },
   data: () => ({

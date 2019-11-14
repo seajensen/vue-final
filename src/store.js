@@ -5,7 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    teamCount: 0,
+    teamType: [],
+    teamHeight: [],
+    teamWeight: [],
+    teamName: [],
+    teamSprite: []
   },
   mutations: {
 
