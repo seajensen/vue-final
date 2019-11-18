@@ -49,16 +49,22 @@ export default {
 
       },
       teamAdd(a, b, c, d, e) {
-          console.log(a);
-          console.log(b);
-          console.log(c);
-          console.log(d);
-          console.log(e);
-          this.$store.state.teamType.push(a);
-          this.$store.state.teamHeight.push(b);
-          this.$store.state.teamWeight.push(c);
-          this.$store.state.teamName.push(d);
-          this.$store.state.teamSprite.push(e);
+          if(this.$store.state.teamCount < 6) {
+            this.$store.state.teamType.push(a);
+            this.$store.state.teamHeight.push(b);
+            this.$store.state.teamWeight.push(c);
+            this.$store.state.teamName.push(d);
+            this.$store.state.teamSprite.push(e);
+            this.$store.state.teamCount++;
+          } else {
+              alert("YOUR TEAM IS FULL! PLEASE RELEASE A POKÉMON TO ADD A NEW ONE");
+          }
+          
+      }
+  },
+    computed: {
+      length() {
+          return this.$store.state.teamName.length;
       }
   },
   data: () => ({
@@ -66,6 +72,7 @@ export default {
     pkmonHeight: null,
     pkmonWeight: null,
     infoToggle: false,
+    teamCount: 0,
   })
 };
 </script>
