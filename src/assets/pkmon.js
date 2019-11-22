@@ -1,5 +1,6 @@
 export const pkmon = [
     {
+        id: 1,
         name: "bulbasaur",
         sprites: {
             back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
@@ -32,6 +33,72 @@ export const pkmon = [
         height: 7,
     },
     {
+        id: 2,
+        name: "ivysaur",
+        sprites: {
+            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            back_female: null,
+            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/2.png",
+            back_shiny_female: null,
+            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            front_female: null,
+            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png",
+            front_shiny_female: null
+        },
+        stats: [],
+        types: [
+            {
+            slot: 2,
+                type: {
+                    name: "poison",
+                    url: "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+            {
+            slot: 1,
+                type: {
+                    name: "grass",
+                    url: "https://pokeapi.co/api/v2/type/12/"
+                    }
+                }
+        ],
+        weight: 130,
+        height: 10
+    },
+    {
+        id: 3,
+        name: "venusaur",
+        sprites: {
+            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png",
+            back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/3.png",
+            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/3.png",
+            back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/3.png",
+            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/3.png",
+            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png",
+            front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/3.png"
+        },
+        types: [
+            {
+            slot: 2,
+                type: {
+                    name: "poison",
+                    url: "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+            {
+            slot: 1,
+                type: {
+                    name: "grass",
+                    url: "https://pokeapi.co/api/v2/type/12/"
+                    }
+                }
+            ],
+        weight: 1000,
+        height: 20
+    },
+    {
+        id: 4,
         name: "charmander",
         sprites: {
             back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
@@ -54,6 +121,31 @@ export const pkmon = [
         ],
         weight: 85,
         height: 6,
+    },
+    {
+        id: 5,
+        name: "charmeleon",
+        sprites: {
+            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
+            back_female: null,
+            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/5.png",
+            back_shiny_female: null,
+            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+            front_female: null,
+            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png",
+            front_shiny_female: null
+        },
+        types: [
+            {
+            slot: 1,
+                type: {
+                    name: "fire",
+                    url: "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+        ],
+        height: 11,
+        weight: 190
     },
     {
         name: "squirtle",
