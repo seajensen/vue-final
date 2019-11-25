@@ -1,7 +1,7 @@
 <template>
 <div>
     <div style="display: flex;">
-        <img :src="pkmon.sprites.front_default" :id="pkmon.name">
+        <img :src="pkmon.sprites.front_default" :id="pkmon.id">
         <v-btn style="background-color: red; color: white; margin: auto; width: 120px;"
         @click="pkmonInfo(pkmon.height, pkmon.weight, pkmon.types)"
         >{{ pkmon.name }}</v-btn>
