@@ -54,7 +54,7 @@ h1 {
 #right-side {
     background-color: red;
     height: 100%;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 #icon {
     width: 200px;

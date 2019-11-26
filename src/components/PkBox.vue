@@ -1,5 +1,5 @@
 <template>
-<div id="dex-box" style="height: 550px; overflow: scroll;">
+<div id="dex-box" style="height: 350px; overflow: scroll;">
     <p>Click on a Pokémon to Learn More</p><br>
     <div v-for="pkmon in pkmon" :key="pkmon.name" >
     <pk-comp :pkmon="pkmon"></pk-comp>

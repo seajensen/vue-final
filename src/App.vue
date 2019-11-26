@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">PokéDex</router-link> |
+      <router-link to="/">PokéDex</router-link> <br>
       <router-link to="/myTeam">My Team</router-link>
     </div>
     <router-view/>
@@ -15,18 +15,21 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: white;
 }
 #nav {
-  padding: 30px;
-  margin-left: 7%;
-  margin-bottom: -2%;
+  text-align: left;
   background-color: red;
+  margin-bottom: -300px;
+  padding-top: 190px;
+  margin-left: 26px;
+  line-height: 40pt;
+  z-index: -1000;
 }
 
 #nav a {
   font-weight: bold;
-  color: #ffffff;
+  color: red;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
@@ -34,6 +37,8 @@
 }
 #nav a:hover {
   font-weight: bold;
-  color: #000000;
+  color: red;
+  background-color: white;
+  margin-left: 10px;
 }
 </style>
