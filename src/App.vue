@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">PokéDex</router-link> <br>
-      <router-link to="/myTeam">My Team</router-link>
+      <router-link to="/myTeam">My Team</router-link> <br>
+      <router-link to="/savedTeams">Saved Teams</router-link>
     </div>
     <router-view/>
   </div>
@@ -19,7 +20,7 @@
 #nav {
   text-align: left;
   background-color: red;
-  margin-bottom: -300px;
+  margin-bottom: -350px;
   padding-top: 190px;
   margin-left: 26px;
   line-height: 40pt;
@@ -28,17 +29,20 @@
 
 #nav a {
   font-weight: bold;
-  color: red;
+  color: black;
   text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
-  color: rgb(65, 65, 65);
+  color: rgb(77, 77, 77);
+}
+#nav a.router-link-exact-active:hover {
+  margin-left: 0px;
+  color: rgb(77, 77, 77);
 }
 #nav a:hover {
   font-weight: bold;
   color: red;
-  background-color: white;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 </style>
