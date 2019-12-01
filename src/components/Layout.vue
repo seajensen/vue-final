@@ -54,7 +54,17 @@ h1 {
 #right-side {
     background-color: red;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 12%;
+}
+@media(max-width: 1120px) {
+    #right-side {
+        margin-left: 15%;
+    }
+}
+@media(max-width: 900px) {
+    #right-side {
+        margin-left: 18%;
+    }
 }
 #icon {
     width: 200px;

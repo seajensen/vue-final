@@ -2983,33 +2983,454 @@ export const pkmon = [
         ],
         weight: 785
     },
-    
     {
-        name: "ditto",
-        sprites: {
-            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
-            back_female: null,
-            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/132.png",
-            back_shiny_female: null,
-            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
-            front_female: null,
-            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
-            front_shiny_female: null
-        },
-        types: [
-            {
-            slot: 1,
-                type: {
-                    name: "normal",
-                    url: "https://pokeapi.co/api/v2/type/1/"
-                }
-            }
-        ],
-        weight: 40,
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
         height: 3,
+        held_items: [],
+        id: 81,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/81/encounters",
+        moves: [],
+        name: "magnemite",
+        order: 118,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/81.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/81.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/81.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "steel",
+        url: "https://pokeapi.co/api/v2/type/9/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 60
+    },
+    {
+        abilities: [],
+        base_experience: 163,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [],
+        id: 82,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/82/encounters",
+        moves: [],
+        name: "magneton",
+        order: 119,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/82.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/82.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "steel",
+        url: "https://pokeapi.co/api/v2/type/9/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 600
+    },
+    {
+        abilities: [],
+        base_experience: 132,
+        forms: [],
+        game_indices: [],
+        height: 8,
+        held_items: [],
+        id: 83,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/83/encounters",
+        moves: [],
+        name: "farfetchd",
+        order: 121,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/83.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/83.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/83.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 150
+    },
+    {
+        abilities: [],
+        base_experience: 62,
+        forms: [],
+        game_indices: [],
+        height: 14,
+        held_items: [],
+        id: 84,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/84/encounters",
+        moves: [],
+        name: "doduo",
+        order: 122,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/84.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/84.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/84.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/84.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/84.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/84.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/84.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 392
+    },
+    {
+        abilities: [],
+        base_experience: 165,
+        forms: [],
+        game_indices: [],
+        height: 18,
+        held_items: [],
+        id: 85,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/85/encounters",
+        moves: [],
+        name: "dodrio",
+        order: 123,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/85.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/85.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/85.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/85.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/85.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/85.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 852
+    },
+    {
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
+        height: 11,
+        held_items: [],
+        id: 86,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/86/encounters",
+        moves: [],
+        name: "seel",
+        order: 124,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/86.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/86.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/86.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 900
+    },
+    {
+        abilities: [],
+        base_experience: 166,
+        forms: [],
+        game_indices: [],
+        height: 17,
+        held_items: [],
+        id: 87,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/87/encounters",
+        moves: [],
+        name: "dewgong",
+        order: 125,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/87.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/87.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/87.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "ice",
+        url: "https://pokeapi.co/api/v2/type/15/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 1200
+    },
+    {
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
+        height: 9,
+        held_items: [],
+        id: 88,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/88/encounters",
+        moves: [],
+        name: "grimer",
+        order: 126,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/88.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/88.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/88.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        }
+        ],
+        weight: 300
+    },
+    {
+        abilities: [],
+        base_experience: 175,
+        forms: [],
+        game_indices: [],
+        height: 12,
+        held_items: [],
+        id: 89,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/89/encounters",
+        moves: [],
+        name: "muk",
+        order: 128,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/89.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        }
+        ],
+        weight: 300
+    },
+    {
+        abilities: [],
+        base_experience: 61,
+        forms: [],
+        game_indices: [],
+        height: 3,
+        held_items: [],
+        id: 90,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/90/encounters",
+        moves: [],
+        name: "shellder",
+        order: 130,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/90.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/90.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 40
+    },
+    {
+        abilities: [],
+        base_experience: 184,
+        forms: [],
+        game_indices: [],
+        height: 15,
+        held_items: [],
+        id: 91,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/91/encounters",
+        moves: [],
+        name: "cloyster",
+        order: 131,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/91.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "ice",
+        url: "https://pokeapi.co/api/v2/type/15/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 1325
     },
     {
         name: "gastly",
+        id: 92,
         sprites: {
             back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png",
             back_female: null,
@@ -3038,5 +3459,2236 @@ export const pkmon = [
         ],
         weight: 1,
         height: 13,
+    },
+    {
+        abilities: [],
+        base_experience: 142,
+        forms: [],
+        game_indices: [],
+        height: 16,
+        held_items: [],
+        id: 93,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/93/encounters",
+        moves: [],
+        name: "haunter",
+        order: 133,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/93.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/93.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/93.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ghost",
+        url: "https://pokeapi.co/api/v2/type/8/"
+        }
+        }
+        ],
+        weight: 1
+    },
+    {
+        abilities: [],
+        base_experience: 225,
+        forms: [],
+        game_indices: [],
+        height: 15,
+        held_items: [],
+        id: 94,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/94/encounters",
+        moves: [],
+        name: "gengar",
+        order: 134,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/94.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/94.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ghost",
+        url: "https://pokeapi.co/api/v2/type/8/"
+        }
+        }
+        ],
+        weight: 405
+    },
+    {
+        abilities: [],
+        base_experience: 77,
+        forms: [],
+        game_indices: [],
+        height: 88,
+        held_items: [],
+        id: 95,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/95/encounters",
+        moves: [],
+        name: "onix",
+        order: 136,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/95.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/95.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "ground",
+        url: "https://pokeapi.co/api/v2/type/5/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 2100
+    },
+    {
+        abilities: [],
+        base_experience: 66,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [ ],
+        id: 96,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/96/encounters",
+        moves: [],
+        name: "drowzee",
+        order: 139,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/96.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/96.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/96.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        }
+        ],
+        weight: 324
+    },
+    {
+        abilities: [],
+        base_experience: 169,
+        forms: [],
+        game_indices: [],
+        height: 16,
+        held_items: [ ],
+        id: 97,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/97/encounters",
+        moves: [],
+        name: "hypno",
+        order: 140,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/97.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/97.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/97.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/97.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/97.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/97.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/97.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        }
+        ],
+        weight: 756
+    },
+    {
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
+        height: 4,
+        held_items: [ ],
+        id: 98,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/98/encounters",
+        moves: [],
+        name: "krabby",
+        order: 141,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/98.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/98.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 65
+    },
+    {
+        abilities: [],
+        base_experience: 166,
+        forms: [],
+        game_indices: [],
+        height: 13,
+        held_items: [ ],
+        id: 99,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/99/encounters",
+        moves: [],
+        name: "kingler",
+        order: 142,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/99.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/99.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/99.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 600
+    },
+    {
+        abilities: [],
+        base_experience: 66,
+        forms: [],
+        game_indices: [],
+        height: 5,
+        held_items: [ ],
+        id: 100,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/100/encounters",
+        moves: [],
+        name: "voltorb",
+        order: 143,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/100.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 104
+    },
+    {
+        abilities: [],
+        base_experience: 172,
+        forms: [],
+        game_indices: [],
+        height: 12,
+        held_items: [ ],
+        id: 101,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/101/encounters",
+        moves: [],
+        name: "electrode",
+        order: 144,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/101.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/101.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/101.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 666
+    },
+    {
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
+        height: 4,
+        held_items: [],
+        id: 102,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/102/encounters",
+        moves: [],
+        name: "exeggcute",
+        order: 145,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/102.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/102.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/102.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "grass",
+        url: "https://pokeapi.co/api/v2/type/12/"
+        }
+        }
+        ],
+        weight: 25
+    },
+    {
+        abilities: [],
+        base_experience: 186,
+        forms: [],
+        game_indices: [],
+        height: 20,
+        held_items: [ ],
+        id: 103,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/103/encounters",
+        moves: [],
+        name: "exeggutor",
+        order: 146,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/103.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/103.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "grass",
+        url: "https://pokeapi.co/api/v2/type/12/"
+        }
+        }
+        ],
+        weight: 1200
+    },
+    {
+        abilities: [],
+        base_experience: 64,
+        forms: [],
+        game_indices: [],
+        height: 4,
+        held_items: [],
+        id: 104,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/104/encounters",
+        moves: [],
+        name: "cubone",
+        order: 148,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/104.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/104.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/104.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "ground",
+        url: "https://pokeapi.co/api/v2/type/5/"
+        }
+        }
+        ],
+        weight: 65
+    },
+    {
+        abilities: [],
+        base_experience: 149,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [],
+        id: 105,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/105/encounters",
+        moves: [],
+        name: "marowak",
+        order: 149,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/105.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/105.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "ground",
+        url: "https://pokeapi.co/api/v2/type/5/"
+        }
+        }
+        ],
+        weight: 450
+    },
+    {
+        abilities: [],
+        base_experience: 159,
+        forms: [],
+        game_indices: [],
+        height: 15,
+        held_items: [ ],
+        id: 106,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/106/encounters",
+        moves: [],
+        name: "hitmonlee",
+        order: 153,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/106.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/106.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/106.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "fighting",
+        url: "https://pokeapi.co/api/v2/type/2/"
+        }
+        }
+        ],
+        weight: 498
+    },
+    {
+        abilities: [],
+        base_experience: 159,
+        forms: [],
+        game_indices: [],
+        height: 14,
+        held_items: [ ],
+        id: 107,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/107/encounters",
+        moves: [],
+        name: "hitmonchan",
+        order: 154,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/107.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/107.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/107.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "fighting",
+        url: "https://pokeapi.co/api/v2/type/2/"
+        }
+        }
+        ],
+        weight: 502
+    },
+    {
+        abilities: [],
+        base_experience: 77,
+        forms: [],
+        game_indices: [],
+        height: 12,
+        held_items: [],
+        id: 108,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/108/encounters",
+        moves: [],
+        name: "lickitung",
+        order: 156,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/108.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/108.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 655
+    },
+    {
+        abilities: [],
+        base_experience: 68,
+        forms: [],
+        game_indices: [],
+        height: 6,
+        held_items: [],
+        id: 109,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/109/encounters",
+        moves: [],
+        name: "koffing",
+        order: 158,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/109.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/109.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/109.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        }
+        ],
+        weight: 10
+    },
+    {
+        abilities: [],
+        base_experience: 172,
+        forms: [],
+        game_indices: [],
+        height: 12,
+        held_items: [],
+        id: 110,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/110/encounters",
+        moves: [],
+        name: "weezing",
+        order: 159,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/110.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/110.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/110.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "poison",
+        url: "https://pokeapi.co/api/v2/type/4/"
+        }
+        }
+        ],
+        weight: 95
+    },
+    {
+        abilities: [],
+        base_experience: 69,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [ ],
+        id: 111,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/111/encounters",
+        moves: [],
+        name: "rhyhorn",
+        order: 160,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/111.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/111.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/111.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/111.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/111.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/111.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/111.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ground",
+        url: "https://pokeapi.co/api/v2/type/5/"
+        }
+        }
+        ],
+        weight: 1150
+    },
+    {
+        abilities: [],
+        base_experience: 170,
+        forms: [],
+        game_indices: [],
+        height: 19,
+        held_items: [ ],
+        id: 112,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/112/encounters",
+        moves: [],
+        name: "rhydon",
+        order: 161,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/112.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/112.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/112.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/112.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/112.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/112.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/112.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ground",
+        url: "https://pokeapi.co/api/v2/type/5/"
+        }
+        }
+        ],
+        weight: 1200
+    },
+    {
+        abilities: [],
+        base_experience: 395,
+        forms: [],
+        game_indices: [],
+        height: 11,
+        held_items: [],
+        id: 113,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/113/encounters",
+        moves: [],
+        name: "chansey",
+        order: 164,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/113.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/113.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/113.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 346
+    },
+    {
+        abilities: [],
+        base_experience: 87,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [ ],
+        id: 114,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/114/encounters",
+        moves: [],
+        name: "tangela",
+        order: 166,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/114.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/114.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/114.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "grass",
+        url: "https://pokeapi.co/api/v2/type/12/"
+        }
+        }
+        ],
+        weight: 350
+    },
+    {
+        abilities: [],
+        base_experience: 172,
+        forms: [],
+        game_indices: [],
+        height: 22,
+        held_items: [ ],
+        id: 115,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/115/encounters",
+        moves: [],
+        name: "kangaskhan",
+        order: 168,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/115.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/115.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/115.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 800
+    },
+    {
+        abilities: [],
+        base_experience: 59,
+        forms: [],
+        game_indices: [],
+        height: 4,
+        held_items: [],
+        id: 116,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/116/encounters",
+        moves: [],
+        name: "horsea",
+        order: 170,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/116.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/116.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 80
+    },
+    {
+        abilities: [],
+        base_experience: 154,
+        forms: [],
+        game_indices: [],
+        height: 12,
+        held_items: [],
+        id: 117,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/117/encounters",
+        moves: [],
+        name: "seadra",
+        order: 171,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/117.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/117.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/117.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 250
+    },
+    {
+        abilities: [],
+        base_experience: 64,
+        forms: [],
+        game_indices: [],
+        height: 6,
+        held_items: [],
+        id: 118,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/118/encounters",
+        moves: [],
+        name: "goldeen",
+        order: 173,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/118.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/118.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/118.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/118.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/118.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/118.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/118.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 150
+    },
+    {
+        abilities: [],
+        base_experience: 158,
+        forms: [],
+        game_indices: [],
+        height: 13,
+        held_items: [],
+        id: 119,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/119/encounters",
+        moves: [],
+        name: "seaking",
+        order: 174,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/119.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/119.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/119.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/119.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/119.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/119.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/119.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 390
+    },
+    {
+        abilities: [],
+        base_experience: 68,
+        forms: [],
+        game_indices: [],
+        height: 8,
+        held_items: [],
+        id: 120,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/120/encounters",
+        moves: [],
+        name: "staryu",
+        order: 175,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/120.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/120.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/120.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 345
+    },
+    {
+        abilities: [],
+        base_experience: 182,
+        forms: [],
+        game_indices: [],
+        height: 11,
+        held_items: [],
+        id: 121,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/121/encounters",
+        moves: [],
+        name: "starmie",
+        order: 176,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/121.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/121.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 800
+    },
+    {
+        abilities: [],
+        base_experience: 161,
+        forms: [],
+        game_indices: [],
+        height: 13,
+        held_items: [],
+        id: 122,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/122/encounters",
+        moves: [],
+        name: "mr-mime",
+        order: 178,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/122.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/122.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/122.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "fairy",
+        url: "https://pokeapi.co/api/v2/type/18/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        }
+        ],
+        weight: 545
+    },
+    {
+        abilities: [],
+        base_experience: 100,
+        forms: [],
+        game_indices: [],
+        height: 15,
+        held_items: [ ],
+        id: 123,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/123/encounters",
+        moves: [],
+        name: "scyther",
+        order: 179,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/123.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/123.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/123.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/123.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/123.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/123.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "bug",
+        url: "https://pokeapi.co/api/v2/type/7/"
+        }
+        }
+        ],
+        weight: 560
+    },
+    {
+        abilities: [],
+        base_experience: 159,
+        forms: [],
+        game_indices: [],
+        height: 14,
+        held_items: [],
+        id: 124,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/124/encounters",
+        moves: [],
+        name: "jynx",
+        order: 183,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/124.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/124.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/124.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ice",
+        url: "https://pokeapi.co/api/v2/type/15/"
+        }
+        }
+        ],
+        weight: 406
+    },
+    {
+        abilities: [],
+        base_experience: 172,
+        forms: [],
+        game_indices: [],
+        height: 11,
+        held_items: [],
+        id: 125,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/125/encounters",
+        moves: [],
+        name: "electabuzz",
+        order: 185,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/125.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/125.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/125.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 300
+    },
+    {
+        abilities: [],
+        base_experience: 173,
+        forms: [],
+        game_indices: [],
+        height: 13,
+        held_items: [],
+        id: 126,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/126/encounters",
+        moves: [],
+        name: "magmar",
+        order: 188,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/126.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/126.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "fire",
+        url: "https://pokeapi.co/api/v2/type/10/"
+        }
+        }
+        ],
+        weight: 445
+    },
+    {
+        abilities: [],
+        base_experience: 175,
+        forms: [],
+        game_indices: [],
+        height: 15,
+        held_items: [ ],
+        id: 127,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/127/encounters",
+        moves: [],
+        name: "pinsir",
+        order: 190,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/127.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "bug",
+        url: "https://pokeapi.co/api/v2/type/7/"
+        }
+        }
+        ],
+        weight: 550
+    },
+    {
+        abilities: [],
+        base_experience: 172,
+        forms: [],
+        game_indices: [],
+        height: 14,
+        held_items: [ ],
+        id: 128,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/128/encounters",
+        moves: [],
+        name: "tauros",
+        order: 192,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/128.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/128.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/128.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 884
+    },
+    {
+        abilities: [],
+        base_experience: 40,
+        forms: [],
+        game_indices: [],
+        height: 9,
+        held_items: [ ],
+        id: 129,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/129/encounters",
+        moves: [],
+        name: "magikarp",
+        order: 193,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/129.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/129.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/129.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/129.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/129.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/129.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/129.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 100
+    },
+    {
+        abilities: [],
+        base_experience: 189,
+        forms: [],
+        game_indices: [],
+        height: 65,
+        held_items: [ ],
+        id: 130,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/130/encounters",
+        moves: [],
+        name: "gyarados",
+        order: 194,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png",
+        back_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/130.png",
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/130.png",
+        back_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/130.png",
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+        front_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/130.png",
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/130.png",
+        front_shiny_female: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/130.png"
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 2350
+    },
+    {
+        abilities: [],
+        base_experience: 187,
+        forms: [],
+        game_indices: [],
+        height: 25,
+        held_items: [],
+        id: 131,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/131/encounters",
+        moves: [],
+        name: "lapras",
+        order: 196,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/131.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/131.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "ice",
+        url: "https://pokeapi.co/api/v2/type/15/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 2200
+    },
+    {
+        name: "ditto",
+        id: 132,
+        sprites: {
+            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
+            back_female: null,
+            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/132.png",
+            back_shiny_female: null,
+            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+            front_female: null,
+            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
+            front_shiny_female: null
+        },
+        types: [
+            {
+            slot: 1,
+                type: {
+                    name: "normal",
+                    url: "https://pokeapi.co/api/v2/type/1/"
+                }
+            }
+        ],
+        weight: 40,
+        height: 3,
+    },
+    {
+        abilities: [],
+        base_experience: 65,
+        forms: [],
+        game_indices: [],
+        height: 3,
+        held_items: [ ],
+        id: 133,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/133/encounters",
+        moves: [],
+        name: "eevee",
+        order: 198,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/133.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/133.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 65
+    },
+    {
+        abilities: [],
+        base_experience: 184,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [ ],
+        id: 134,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/134/encounters",
+        moves: [],
+        name: "vaporeon",
+        order: 199,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/134.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/134.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        }
+        ],
+        weight: 290
+    },
+    {
+        abilities: [],
+        base_experience: 184,
+        forms: [],
+        game_indices: [],
+        height: 8,
+        held_items: [ ],
+        id: 135,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/135/encounters",
+        moves: [],
+        name: "jolteon",
+        order: 200,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/135.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/135.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/135.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 245
+    },
+    {
+        abilities: [],
+        base_experience: 184,
+        forms: [],
+        game_indices: [],
+        height: 9,
+        held_items: [ ],
+        id: 136,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/136/encounters",
+        moves: [],
+        name: "flareon",
+        order: 201,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/136.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/136.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "fire",
+        url: "https://pokeapi.co/api/v2/type/10/"
+        }
+        }
+        ],
+        weight: 250
+    },
+    {
+        abilities: [],
+        base_experience: 79,
+        forms: [],
+        game_indices: [],
+        height: 8,
+        held_items: [ ],
+        id: 137,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/137/encounters",
+        moves: [],
+        name: "porygon",
+        order: 207,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/137.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/137.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/137.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 365
+    },
+    {
+        abilities: [],
+        base_experience: 71,
+        forms: [],
+        game_indices: [],
+        height: 4,
+        held_items: [ ],
+        id: 138,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/138/encounters",
+        moves: [],
+        name: "omanyte",
+        order: 210,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/138.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/138.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/138.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 75
+    },
+    {
+        abilities: [],
+        base_experience: 173,
+        forms: [],
+        game_indices: [],
+        height: 10,
+        held_items: [ ],
+        id: 139,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/139/encounters",
+        moves: [],
+        name: "omastar",
+        order: 211,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/139.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/139.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/139.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 350
+    },
+    {
+        abilities: [],
+        base_experience: 71,
+        forms: [],
+        game_indices: [],
+        height: 5,
+        held_items: [ ],
+        id: 140,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/140/encounters",
+        moves: [],
+        name: "kabuto",
+        order: 212,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/140.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/140.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/140.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 115
+    },
+    {
+        abilities: [],
+        base_experience: 173,
+        forms: [],
+        game_indices: [],
+        height: 13,
+        held_items: [ ],
+        id: 141,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/141/encounters",
+        moves: [],
+        name: "kabutops",
+        order: 213,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/141.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/141.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/141.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "water",
+        url: "https://pokeapi.co/api/v2/type/11/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 405
+    },
+    {
+        abilities: [],
+        base_experience: 180,
+        forms: [],
+        game_indices: [],
+        height: 18,
+        held_items: [ ],
+        id: 142,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/142/encounters",
+        moves: [],
+        name: "aerodactyl",
+        order: 214,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/142.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "rock",
+        url: "https://pokeapi.co/api/v2/type/6/"
+        }
+        }
+        ],
+        weight: 590
+    },
+    {
+        abilities: [],
+        base_experience: 189,
+        forms: [],
+        game_indices: [],
+        height: 21,
+        held_items: [],
+        id: 143,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/143/encounters",
+        moves: [],
+        name: "snorlax",
+        order: 217,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/143.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/143.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/143.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "normal",
+        url: "https://pokeapi.co/api/v2/type/1/"
+        }
+        }
+        ],
+        weight: 4600
+    },
+    {
+        abilities: [],
+        base_experience: 261,
+        forms: [],
+        game_indices: [],
+        height: 17,
+        held_items: [ ],
+        id: 144,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/144/encounters",
+        moves: [],
+        name: "articuno",
+        order: 218,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/144.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/144.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "ice",
+        url: "https://pokeapi.co/api/v2/type/15/"
+        }
+        }
+        ],
+        weight: 554
+    },
+    {
+        abilities: [],
+        base_experience: 261,
+        forms: [],
+        game_indices: [],
+        height: 16,
+        held_items: [ ],
+        id: 145,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/145/encounters",
+        moves: [],
+        name: "zapdos",
+        order: 219,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/145.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/145.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/145.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "electric",
+        url: "https://pokeapi.co/api/v2/type/13/"
+        }
+        }
+        ],
+        weight: 526
+    },
+    {
+        abilities: [],
+        base_experience: 261,
+        forms: [],
+        game_indices: [],
+        height: 20,
+        held_items: [ ],
+        id: 146,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/146/encounters",
+        moves: [],
+        name: "moltres",
+        order: 220,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/146.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/146.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "fire",
+        url: "https://pokeapi.co/api/v2/type/10/"
+        }
+        }
+        ],
+        weight: 600
+    },
+    {
+        abilities: [],
+        base_experience: 60,
+        forms: [],
+        game_indices: [],
+        height: 18,
+        held_items: [],
+        id: 147,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/147/encounters",
+        moves: [],
+        name: "dratini",
+        order: 221,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/147.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "dragon",
+        url: "https://pokeapi.co/api/v2/type/16/"
+        }
+        }
+        ],
+        weight: 33
+    },
+    {
+        abilities: [],
+        base_experience: 147,
+        forms: [],
+        game_indices: [],
+        height: 40,
+        held_items: [],
+        id: 148,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/148/encounters",
+        moves: [],
+        name: "dragonair",
+        order: 222,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/148.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/148.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/148.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "dragon",
+        url: "https://pokeapi.co/api/v2/type/16/"
+        }
+        }
+        ],
+        weight: 165
+    },
+    {
+        abilities: [],
+        base_experience: 270,
+        forms: [],
+        game_indices: [],
+        height: 22,
+        held_items: [],
+        id: 149,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/149/encounters",
+        moves: [],
+        name: "dragonite",
+        order: 223,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/149.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/149.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 2,
+        type: {
+        name: "flying",
+        url: "https://pokeapi.co/api/v2/type/3/"
+        }
+        },
+        {
+        slot: 1,
+        type: {
+        name: "dragon",
+        url: "https://pokeapi.co/api/v2/type/16/"
+        }
+        }
+        ],
+        weight: 2100
+    },
+    {
+        abilities: [],
+        base_experience: 306,
+        forms: [],
+        game_indices: [],
+        height: 20,
+        held_items: [ ],
+        id: 150,
+        is_default: true,
+        location_area_encounters: "https://pokeapi.co/api/v2/pokemon/150/encounters",
+        moves: [],
+        name: "mewtwo",
+        order: 224,
+        species: {},
+        sprites: {
+        back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png",
+        back_female: null,
+        back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/150.png",
+        back_shiny_female: null,
+        front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        front_female: null,
+        front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/150.png",
+        front_shiny_female: null
+        },
+        stats: [],
+        types: [
+        {
+        slot: 1,
+        type: {
+        name: "psychic",
+        url: "https://pokeapi.co/api/v2/type/14/"
+        }
+        }
+        ],
+        weight: 1220
     }
 ]

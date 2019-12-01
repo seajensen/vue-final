@@ -6,6 +6,7 @@
 
 <script>
 // @ is an alias to /src
+import teamLayout from '../components/TeamLayout';
 
 export default {
   name: 'home',

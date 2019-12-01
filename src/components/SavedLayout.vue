@@ -6,7 +6,6 @@
         <h1 id="h1Title">Saved Teams</h1>
     </div>
     <v-content>
-        <team-box></team-box>
     </v-content>
 
 <v-footer id="footer-div">
@@ -17,7 +16,6 @@
 </template>
 
 <script>
-import TeamBox from './TeamBox';
 
 export default {
   props: ["pkmon"],
@@ -56,6 +54,16 @@ h1 {
     background-color: red;
     height: 100%;
     margin-left: 10%;
+}
+@media(max-width: 1120px) {
+    #right-side {
+        margin-left: 15%;
+    }
+}
+@media(max-width: 900px) {
+    #right-side {
+        margin-left: 18%;
+    }
 }
 #icon {
     width: 200px;
