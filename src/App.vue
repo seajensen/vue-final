@@ -3,7 +3,9 @@
     <div id="nav">
       <router-link to="/">PokéDex</router-link> <br>
       <router-link to="/myTeam">My Team</router-link> <br>
-      <router-link to="/savedTeams">Saved Teams</router-link>
+      <router-link to="/savedTeams">Saved Teams</router-link> <br>
+      <a @click="loginStatus = !loginStatus;">Log In</a> <br>
+      <p v-if="!loginStatus">IT WORKS</p>
     </div>
     <router-view/>
   </div>
@@ -46,3 +48,14 @@
   margin-left: 2px;
 }
 </style>
+
+<script>
+
+export default {
+  data: () => {
+    return {
+      loginStatus: true
+    }
+  }
+}
+</script>
