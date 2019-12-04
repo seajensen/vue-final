@@ -1,21 +1,21 @@
 <template>
   <div class="about">
-    <saved-layout/>
+    <type-layout :pkmon="pkmon"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import savedLayout from '../components/SavedLayout';
+import typeLayout from '../components/TypeLayout';
 
 export default {
   name: 'home',
   components: {
-    savedLayout,
+    typeLayout,
   },
   data: () => {
     return {
-        
+      pkmon: pkmon,
     }
   },
 }

@@ -6,6 +6,7 @@
         <h1 id="h1Title">Saved Teams</h1>
     </div>
     <v-content>
+        <team-box></team-box>
     </v-content>
 
 <v-footer id="footer-div">

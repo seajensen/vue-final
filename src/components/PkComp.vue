@@ -19,6 +19,18 @@
             Add to My Team
         </v-btn>
     </div>
+    <div v-if="teamFull"
+        id="fullteam-alert"
+    >   
+        <div id="alert-inner">
+            <p>Your team is full! Please release a Pokémon before you add a new one!</p><br>
+            <v-btn style="background-color: red; color: white; margin: auto; width: 80%; margin-top: 10px; margin-bottom: 10px;"
+            @click="teamFull = false;"
+            >
+            Okay
+            </v-btn>
+        </div>
+    </div>
 </div>
 </template>
 
@@ -57,7 +69,7 @@ export default {
             this.$store.state.teamSprite.push(e);
             this.$store.state.teamCount++;
           } else {
-              alert("YOUR TEAM IS FULL! PLEASE RELEASE A POKÉMON TO ADD A NEW ONE");
+              this.teamFull = true;
           }
           
       }
@@ -73,11 +85,28 @@ export default {
     pkmonWeight: null,
     infoToggle: false,
     teamCount: 0,
+    teamFull: false,
   })
 };
 </script>
 
 
 <style>
-
+#fullteam-alert {
+    background-color: rgb(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;
+}
+#alert-inner {
+    background-color: white; 
+    margin: auto; 
+    width: 30%; 
+    margin-top: 20%; 
+    padding: 10px;
+}
 </style>
