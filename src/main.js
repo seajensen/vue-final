@@ -4,6 +4,9 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import VueResource from 'vue-resource'
+import axios from 'axios'
+
+Vue.prototype.$axios = axios
 
 Vue.use(VueResource)
 

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <type-layout :pkmon="pkmon"/>
+    <type-layout/>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data: () => {
     return {
-      pkmon: pkmon,
+      
     }
   },
 }

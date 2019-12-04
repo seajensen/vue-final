@@ -85,28 +85,27 @@ export default {
     pkmonWeight: null,
     infoToggle: false,
     teamCount: 0,
-    teamFull: false,
+    teamFull: false
   })
-};
+}
 </script>
-
 
 <style>
 #fullteam-alert {
-    background-color: rgb(0, 0, 0, 0.5); 
-    z-index: 1000; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    height: 100%; 
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 }
 #alert-inner {
-    background-color: white; 
-    margin: auto; 
-    width: 30%; 
-    margin-top: 20%; 
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    margin-top: 20%;
     padding: 10px;
 }
 </style>

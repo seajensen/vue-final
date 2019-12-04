@@ -3,10 +3,10 @@
 <div id="right-side">
     <div id="header-div">
         <img id="icon" src="../assets/pokeball.png">
-        <h1 id="h1Title">Saved Teams</h1>
+        <h1 id="h1Title">Types</h1>
     </div>
     <v-content>
-        <team-box></team-box>
+        <type-box></type-box>
     </v-content>
 
 <v-footer id="footer-div">
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import TypeBox from './TypeBox';
 
 export default {
   props: ["pkmon"],
@@ -24,7 +25,7 @@ export default {
     name: "Sean",
   }),
   components: {
-      TeamBox,
+      TypeBox,
   }
 };
 </script>
@@ -54,7 +55,7 @@ h1 {
 #right-side {
     background-color: red;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 @media(max-width: 1120px) {
     #right-side {
