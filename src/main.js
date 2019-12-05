@@ -6,8 +6,6 @@ import vuetify from './plugins/vuetify'
 import VueResource from 'vue-resource'
 import axios from 'axios'
 
-Vue.prototype.$axios = axios
-
 Vue.use(VueResource)
 
 Vue.config.productionTip = false

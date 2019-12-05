@@ -2,7 +2,6 @@
 <div id="dex-box">
     <div style="display: flex">
         <img :src="sprite[0]"><p>{{name[0]}}</p>
-        <p>{{typeObject}}</p>
     </div>
 </div>
 </template>
@@ -25,7 +24,7 @@ export default {
       }
   },
   mounted () {
-      this.$axios.get('https://pokeapi.co/api/v2/type/1/').then
+      axios.get('https://pokeapi.co/api/v2/type/1/').then
             (response => {
               this.typeObject = response.data.results
           })
