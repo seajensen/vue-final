@@ -1,4 +1,4 @@
-export const pkmon = [
+export const types = [
     {
         damage_relations: {
         double_damage_from: [
