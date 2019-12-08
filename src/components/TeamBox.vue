@@ -25,6 +25,17 @@
     <div v-if=!name[0]>
         <p>This team is currently empty</p>
     </div>
+    <div v-if=name[0]
+    style="width: 100%;"
+    >
+    <br>
+    <label>Team Name:   </label>
+    <input type="text" style="border: 1px solid black;" v-model="myTeamName">
+    <v-btn style="background-color: red; color: white; margin: auto; margin-left: 10px;"
+    @click="teamNameBtn">
+        Update
+    </v-btn>
+    </div>
 </div>
 </template>
 
@@ -34,7 +45,8 @@ import PkComp from './PkComp';
 
 export default {
   data: () => ({
-      count: [0, 1, 2, 3, 4, 5]
+      count: [0, 1, 2, 3, 4, 5],
+      myTeamName: ''
   }),
   computed: {
       type() {
@@ -62,6 +74,15 @@ export default {
           this.$store.state.teamName.splice(a,1);
           this.$store.state.teamSprite.splice(a,1);
           this.$store.state.teamCount--;
+      },
+      teamNameBtn() {
+          console.log(this.myTeamName);
+          this.$http.post('https://pokedex-80157.firebaseio.com/teams.json', this.myTeamName)
+            .then(response => {
+                console.log(response);
+            }, error => {
+                console.log(error);
+            });
       }
   }
 };
