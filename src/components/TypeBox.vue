@@ -160,7 +160,6 @@
 </div>
 </template>
 
-
 <script>
 import { types } from '../assets/type.js'
 
@@ -352,7 +351,6 @@ export default {
 };
 </script>
 
-
 <style scoped>
 #dex-box {
     background-color: white;
@@ -401,5 +399,3 @@ p {
     margin-bottom: -2px;
 }
 </style>
-
-

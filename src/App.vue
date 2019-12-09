@@ -40,13 +40,11 @@
   line-height: 40pt;
   z-index: -1000;
 }
-
 #nav a {
   font-weight: bold;
   color: black;
   text-decoration: none;
 }
-
 #nav a.router-link-exact-active {
   color: rgb(77, 77, 77);
 }

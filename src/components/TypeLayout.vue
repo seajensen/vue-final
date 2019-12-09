@@ -78,6 +78,3 @@ h1 {
     background-color: white;
 }
 </style>
-
-
-

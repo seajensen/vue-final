@@ -36,7 +36,6 @@
 </div>
 </template>
 
-
 <script>
 
 export default {
@@ -76,10 +75,10 @@ export default {
           
       }
   },
-    computed: {
-      length() {
-          return this.$store.state.teamName.length;
-      }
+  computed: {
+    length () {
+      return this.$store.state.teamName.length
+  }
   },
   data: () => ({
     pkmonType: null,
@@ -130,7 +129,7 @@ export default {
 @keyframes drop-down {
     from {
         height: 1px;
-    } 
+    }
     to {
         height: 125px;
     }
@@ -138,7 +137,7 @@ export default {
 @keyframes drop-down-reverse {
     from {
         height: 125px;
-    } 
+    }
     to {
         height: 1px;
     }

@@ -55,7 +55,6 @@
 </div>
 </template>
 
-
 <script>
 import PkComp from './PkComp';
 
@@ -124,7 +123,6 @@ export default {
 };
 </script>
 
-
 <style scoped>
 #dex-box {
     background-color: white;
@@ -149,5 +147,3 @@ p {
     margin-top: 15px;
 }
 </style>
-
-
