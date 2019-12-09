@@ -6,6 +6,7 @@
         @click="pkmonInfo(pkmon.height, pkmon.weight, pkmon.types)"
         >{{ pkmon.name }}</v-btn>
     </div>
+    <transition name="drop">
     <div style="background-color: rgb(221, 221, 221);" v-if="infoToggle">
         <p>Type(s): {{pkmonType}}</p>
         <v-divider></v-divider>
@@ -19,6 +20,7 @@
             Add to My Team
         </v-btn>
     </div>
+    </transition>
     <div v-if="teamFull"
         id="fullteam-alert"
     >   
@@ -107,5 +109,38 @@ export default {
     width: 30%;
     margin-top: 20%;
     padding: 10px;
+}
+.drop-enter {
+    opacity: 0;
+    height: 1px;
+}
+.drop-enter-active {
+    transition: opacity 1.2s;
+    animation: drop-down .3s;
+}
+.drop-leave {
+
+}
+.drop-leave-active {
+    opacity: 0;
+    transition: opacity .2s;
+    animation: drop-down-reverse .3s;
+    height: 1px;
+}
+@keyframes drop-down {
+    from {
+        height: 1px;
+    } 
+    to {
+        height: 125px;
+    }
+}
+@keyframes drop-down-reverse {
+    from {
+        height: 125px;
+    } 
+    to {
+        height: 1px;
+    }
 }
 </style>
