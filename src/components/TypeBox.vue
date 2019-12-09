@@ -320,6 +320,7 @@ export default {
       },
       weakCount() {
           let weakArray = ["fighting", "flying, psychic, fairy", "rock, electric, ice", "ground", "water, grass, ice", "fighting, ground, steel, water, grass", "flying, rock, fire", "ghost, dark", "fighting, ground, fire", "ground, rock, water", "grass, electric", "flying, poison, bug, fire, ice", "ground", "bug, ghost, dark", "fighting, rock, steel, fire", "ice, dragon, fairy", "fighting, bug, fairy", "poison, steel"];
+          
           return weakArray;
       },
       strongCount() {

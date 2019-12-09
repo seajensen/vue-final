@@ -7,8 +7,7 @@
       to="/types">Type Analysis</router-link> 
       <a v-if="nameArray.length != 6"
       @click="typeStatus = !typeStatus;"
-      >Type Analysis</a><br>
-      <a @click="loginStatus = !loginStatus;">Log In</a> <br>
+      >Type Analysis</a>
     </div>
     <router-view/>
     <div id="type-box" v-if="typeStatus">
@@ -36,7 +35,7 @@
   text-align: left;
   background-color: red;
   margin-bottom: -402px;
-  padding-top: 170px;
+  padding-top: 240px;
   margin-left: 26px;
   line-height: 40pt;
   z-index: -1000;
